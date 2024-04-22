@@ -2,7 +2,9 @@
 
 <template>
   <div></div>
-  11212
+  <a-button type="primary">主色按扭</a-button>
+  <StepBackwardOutlined />
+  <StepForwardOutlined />
 </template>
 
 <style lang="" scoped></style>
