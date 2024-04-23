@@ -16,6 +16,7 @@ const theme = {
     <StepForwardOutlined />
 
     <a-pagination :total="500" show-quick-jumper />
+    <a href="#">123</a>
   </a-config-provider>
 </template>
 
