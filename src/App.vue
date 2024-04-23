@@ -11,12 +11,7 @@ const theme = {
 <template>
   <!--组件库全局配置-->
   <a-config-provider :theme="theme" :locale="zhCN">
-    <a-button type="primary">主色按扭</a-button>
-    <StepBackwardOutlined />
-    <StepForwardOutlined />
-
-    <a-pagination :total="500" show-quick-jumper />
-    <a href="#">123</a>
+    <router-view></router-view>
   </a-config-provider>
 </template>
 
